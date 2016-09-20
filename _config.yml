@@ -8,6 +8,7 @@ subtitle: There are only two kinds of programming languages.
 description: javascript&css
 author: Santo Monster
 language: zh-CN
+email: santotech@sina.com
 timezone:
 
 # URL
@@ -65,13 +66,24 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: hueman
 
+# Markdown语法
+## https://github.com/chjj/marked
+markdown:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo:
         github: git@github.com:santotech/santotech.github.io.git,master
-        coding: git@git.coding.net:santotech/santotech.git,branch
+        coding: git@git.coding.net:santotech/santotech.git,coding-pages
 
 # duoshuo_shortname
 duoshuo_shortname: santotech
