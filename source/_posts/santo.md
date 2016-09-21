@@ -6,15 +6,15 @@ tags:
 - css
 - jquery
 categories:
-- web 前端
+- Javascript
 ---
 
-# Title 
+# Title
 
 ```js
   var a = 1, b = 2;
   function count() {
     a + b;
     }
-  
+
 ```

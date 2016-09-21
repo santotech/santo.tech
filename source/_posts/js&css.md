@@ -6,9 +6,9 @@ tags:
 - javascript
 - css
 categories:
-- javascript&css
+- Css
 ---
-#This is a css code snippet
+# This is a css code snippet
 
 ```css
   #box {
@@ -17,7 +17,7 @@ categories:
   }
 ```
 
-#This is a javascript code snippet
+# This is a javascript code snippet
 
 ```js
   function count() {
