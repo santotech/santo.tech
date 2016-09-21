@@ -11,20 +11,20 @@
             }
             title = '<i class="icon fa fa-archive"></i>' + title;
         } else if (page.category) {
-            title = '<i class="icon fa fa-folder-open"></i>' + __('index.category') + ': <em class="page-title-link">' + page.category + '</em>';
+            title = '<i class="icon fa fa-code"></i> <em class="page-title-link">' + page.category + '</em>';
         } else if (page.tag) {
-            title = '<i class="icon fa fa-tag"></i>' + __('index.tag') + ': <em>' + page.tag + '</em>';
+            title = '<i class="icon fa fa-tag"></i> <em>' + page.tag + '</em>';
         } else if (is_post()) {
             title = list_categories(page.categories, {show_count: false, style: 'none', class: 'page-title', separator: '<i class="icon fa fa-angle-right"></i>'});
             if (title == "") {
                 title = __('index.uncategorized');
             }
         } else if (is_home()) {
-            title = '<em class="page-title-link" data-url="home">' + __('index.home') + '</em>';
+            title = '<i class="icon fa fa-home"></i> <em class="page-title-link" data-url="home">' + __('index.home') + '</em>';
         } else if (page.subtitle) {
             title = '<em class="page-title-link" data-url="' + url_for(page.path) + '">' + page.subtitle + '</em>';
         } else if (page.title) {
-            title = '<em class="page-title-link" data-url="' + url_for(page.path) + '">' + page.title + '</em>';
+            title = '<i class="icon fa fa-eye"></i> <em class="page-title-link" data-url="' + url_for(page.path) + '">' + page.title + '</em>';
         } else {
             title = config.title;
         }
