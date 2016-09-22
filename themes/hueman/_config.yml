@@ -32,6 +32,7 @@ widgets:
     - tag
     #- tagcloud
     - links
+    - contact
 
 # Search
 search:
@@ -63,3 +64,5 @@ miscellaneous:
         google_plus:
     links:
         "站点导航": http://www.daqianduan.com/nav
+    contact:
+        Email: santotech@sina.com
