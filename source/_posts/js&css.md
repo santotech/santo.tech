@@ -1,7 +1,7 @@
 ---
 title: code
 date: 2016-09-18 10:51:57
-thumbnail: http://pic64.nipic.com/file/20150420/20688018_150414806202_2.jpg
+thumbnail: 
 tags:
 - javascript
 - css

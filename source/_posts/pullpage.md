@@ -1,3 +1,4 @@
+---
 layout: post
 title: pullpage
 date: 2016-09-22 22:02:11
@@ -6,7 +7,7 @@ tags:
 - jquery
 categories:
 - Plugin
---------------------------------------------------------------------------------
+---
 
 # 使用方法
 
@@ -53,15 +54,15 @@ $(function(){
 
 - 选项
 
-|选项                                | 类型  | 默认值         | 说明|
-|:-------------------------------- | :-- | :---------- | :-----------------------------------|
+|选项     | 类型     |默认值      | 说明     |
+| :------------- | :------------- | :------------- | :------------- |
 |verticalCentered                  | 字符串 | true        | 内容是否垂直居中|
 |resize                            | 布尔值 | false       | 字体是否随着窗口缩放而缩放|
 |slidesColor                       | 函数  | 无           | 设置背景颜色|
 |anchors                           | 数组  | 无           | 定义锚链接|
 |scrollingSpeed                    | 整数  | 700         | 滚动速度，单位为毫秒|
 |easing                            | 字符串 | easeInQuart | 滚动动画方式|
-|menu                              | 布尔值 | false       | 绑定菜单，设定的相关属性与 anchors 的值对应后，菜单|可以控制滚动|
+|menu                              | 布尔值 | false       | 绑定菜单，设定的相关属性与 anchors 的值对应后，菜单可以控制滚动|
 |navigation                        | 布尔值 | false       | 是否显示项目导航|
 |navigationPosition                | 字符串 | right       | 项目导航的位置，可选 left 或 right|
 |navigationColor                   | 字符串 | #000        | 项目导航的颜色|
@@ -83,7 +84,7 @@ $(function(){
 |touchSensitivity                  | 整数  | 5           | |
 |continuousVertical                | 布尔值 | false       | 是否循环滚动，与 loopTop 及 loopBottom 不兼容|
 |animateAnchor                     | 布尔值 | true        | |
-|normalScrollElementTouchThreshold | 布尔值 | 5           | |
+|normalScrollElementTouchThreshold | 布尔值 | 5           | <br>|
 
 - 方法
 
@@ -104,7 +105,7 @@ $(function(){
 |名称             | 说明|
 |:------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------|
 |afterLoad      | 滚动到某一屏后的回调函数，接收 anchorLink 和 index 两个参数，anchorLink 是锚链接的名称，index 是序号，从1开始计算|
-|onLeave        | 滚动前的回调函数，接收 index、nextIndex 和 direction 3个参数：index 是离开的"页面"的序号，从1开始计算；nextIndex 是滚动到的"页面"的序号，从1开始计算；direction 判断往上滚动还是往下滚动，值是 up 或 down。|
+|onLeave        | 滚动前的回调函数，接收 index、nextIndex 和 direction 3个参数：index 是离开的"页面"的序号，从1开始计算；<br>nextIndex 是滚动到的"页面"的序号，从1开始计算；<br>direction 判断往上滚动还是往下滚动，值是 up 或 down。|
 |afterRender    | 页面结构生成后的回调函数，或者说页面初始化完成后的回调函数|
 |afterSlideLoad | 滚动到某一水平滑块后的回调函数，与 afterLoad 类似，接收 anchorLink、index、slideIndex、direction 4个参数|
 |onSlideLeave   | 某一水平滑块滚动前的回调函数，与 onLeave 类似，接收 anchorLink、index、slideIndex、direction 4个参数|
