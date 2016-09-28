@@ -30,9 +30,10 @@ canonical: true
 menu:
   home: /
   categories: /categories
-  about: /about.html
   archives: /archives
   tags: /tags
+  about: about/index.html
+  board: /board
   # commonweal: /404.html
 
 
@@ -49,7 +50,8 @@ menu_icons:
   categories: th
   tags: tags
   archives: archive
-  commonweal: heartbeat
+  board: comment
+  # commonweal: heartbeat
 
 
 
@@ -60,8 +62,8 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-#scheme: Mist
-scheme: Pisces
+scheme: Mist
+# scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -76,7 +78,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: //fonts.useso.com
 
   # Global font settings used on <body> element.
   global:
@@ -124,6 +126,8 @@ font:
   #LinkLabel: Link
 social:
   GitHub: https://github.com/santotech
+  Email: Mailto:santotech@sina.com
+  Weibo: http://weibo.com/u/2803116122/home?topnav=1&wvr=6
 
 
 # Social Links Icons
@@ -136,7 +140,8 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
+  Email: send-o
+  # Twitter: twitter
   Weibo: weibo
 
 
@@ -238,7 +243,6 @@ mathjax:
   enable: false
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
-
 # Swiftype Search API Key
 #swiftype_key:
 
@@ -246,7 +250,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+#duoshuo_shortname: santotech
 
 # Disqus
 #disqus_shortname:
@@ -262,7 +266,7 @@ mathjax:
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -399,5 +403,3 @@ images: images
 
 # Theme version
 version: 5.0.1
-# avatar
-avatar: /images/avatar.png
