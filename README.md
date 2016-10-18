@@ -1,1 +1,2 @@
-## this is a configuration file
+## There are only two kinds of programming languages.
+###
